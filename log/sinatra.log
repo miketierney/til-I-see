@@ -1598,3 +1598,10 @@ Errno::ENOENT: No such file or directory - ./views/reset.sass
 127.0.0.1 - - [18/Oct/2010 00:35:15] "GET /favicon.ico " 404 420 0.0007
 127.0.0.1 - - [18/Oct/2010 00:35:15] "GET /favicon.ico " 404 420 0.0005
 127.0.0.1 - - [18/Oct/2010 00:35:15] "GET /favicon.ico " 404 420 0.0006
+127.0.0.1 - - [18/Oct/2010 23:04:17] "GET / " 200 461 0.0198
+127.0.0.1 - - [18/Oct/2010 23:04:17] "GET /stylesheets/reset.css " 200 1072 0.2023
+127.0.0.1 - - [18/Oct/2010 23:04:18] "GET /stylesheets/application.css " 200 246 0.0767
+127.0.0.1 - - [18/Oct/2010 23:04:18] "GET /favicon.ico " 404 420 0.0006
+127.0.0.1 - - [21/Oct/2010 12:48:18] "GET / " 200 502 0.0236
+127.0.0.1 - - [21/Oct/2010 12:48:19] "GET /stylesheets/application.css " 200 246 0.9430
+127.0.0.1 - - [21/Oct/2010 12:48:19] "GET /stylesheets/reset.css " 200 1072 0.3921

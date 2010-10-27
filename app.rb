@@ -14,17 +14,12 @@ end
 
 helpers do
   def days_left
-    # now = Time.now
-    # today = Date.new(now.year, now.month, now.day)
-    # goal = Date.new(2010, 10, 28)
-    # offset = goal - today
-    # offset.to_i
     today = DateTime.now
     goal = DateTime.new(2010,10,28,12,30,00)
     offset = goal - today
     hours,minutes,seconds,frac = Date.day_fraction_to_time(offset)
     days = hours / 24
     hours = hours % 24
-    "#{days} days, #{hours} hours, #{minutes} minutes and #{seconds} seconds"
+    offset <= 0 ? "No more days left!" : "Only #{days} days, #{hours} hours, #{minutes} minutes and #{seconds} seconds left!"
   end
 end

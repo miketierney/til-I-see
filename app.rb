@@ -15,7 +15,7 @@ end
 helpers do
   def days_left
     today = DateTime.now
-    goal = DateTime.new(2010,10,28,12,30,00)
+    goal = DateTime.new(2011,03,11,23,14,00)
     offset = goal - today
     hours,minutes,seconds,frac = Date.day_fraction_to_time(offset)
     days = hours / 24

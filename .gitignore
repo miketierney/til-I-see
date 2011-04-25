@@ -1,2 +1,4 @@
 log/*
 tmp/*
+.sass-cache
+.DS_Store
